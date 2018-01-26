@@ -54,6 +54,7 @@ public class PayItHereApplication extends Application {
         super.onCreate();
         instance = this;
         configureImageLoader();
+        System.out.println("Hey");
     }
 
   /*  @Override
