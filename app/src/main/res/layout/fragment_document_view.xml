@@ -1,0 +1,94 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.incomm.payithere.views.documents.DocumentViewFragment">
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/header_container"
+        android:visibility="gone">
+        <!--<LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/action_bar_holder"
+            android:layout_alignParentTop="true">
+            <include layout="@layout/incl_actionbar" />
+        </LinearLayout>-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/title_bar_holder"
+            android:layout_alignParentBottom="false"
+            android:layout_alignBottom="@+id/action_bar_holder">
+            <include layout="@layout/incl_subtitle_header_b"/>
+        </LinearLayout>
+    </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/copy_document_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/header_container"
+            android:fillViewport="true"
+            android:isScrollContainer="true"
+            android:visibility="gone">
+
+                <br.tiagohm.markdownview.MarkdownView
+                    android:id="@+id/document_copy_textview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="14dp"
+                    android:paddingRight="14dp"
+                    android:textColor="#545454"
+                    android:textSize="14sp"
+                    android:textStyle="normal" />
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/image_document_container"
+            android:layout_below="@+id/header_container"
+            android:visibility="gone">
+
+            <FrameLayout
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:paddingBottom="12dp"
+                android:paddingTop="12dp"
+                android:layout_width="match_parent"
+                android:background="#ffffff"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp" >
+
+                <ImageView
+                    android:id="@+id/legal_doc_view_imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+
+                <View
+                    android:id="@+id/legal_doc_view_imageToucher"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+
+            </FrameLayout>
+        </LinearLayout>
+</RelativeLayout>
+
+
+</FrameLayout>

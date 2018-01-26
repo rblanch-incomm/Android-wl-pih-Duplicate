@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bkg_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <include layout="@layout/incl_button_big_with_rule_started"></include>
+    </FrameLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/edit_text_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="34dp"
+        android:paddingTop="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/first_name_et"
+            android:hint="Enter your first name"
+            android:inputType="text"
+            android:imeOptions="actionNext"
+            android:layout_height="48dp"
+            android:paddingBottom="20dp"
+            style="@style/Edittext_entry" />
+        <EditText
+            android:id="@+id/last_name_et"
+            android:hint="Enter your last name"
+            android:inputType="text"
+            android:imeOptions="actionNext"
+            android:paddingBottom="21dp"
+            style="@style/Edittext_entry" />
+        <EditText
+            android:id="@+id/email_et"
+            android:hint="Enter your email"
+            android:imeOptions="actionNext"
+            android:paddingBottom="21dp"
+            android:inputType="textEmailAddress"
+            style="@style/Edittext_entry" />
+        <EditText
+            android:id="@+id/confirm_email_et"
+            android:hint="Confirm email"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress"
+            style="@style/Edittext_entry" />
+        <EditText
+            android:id="@+id/phone_et"
+            android:hint="Enter your phone number"
+            android:inputType="phone"
+            android:maxLength="14"
+            android:digits="0123456789()-+ "
+            android:imeOptions="actionNext"
+            style="@style/Edittext_entry" />
+        <!--<EditText
+            android:id="@+id/zipcode_et"
+            android:hint="Enter your zipcode"
+            android:inputType="phone"
+            android:maxLength="6"
+            android:digits="0123456789"
+            android:imeOptions="actionNext"
+            style="@style/Edittext_entry" />-->
+        <EditText
+            android:id="@+id/password_et"
+            android:hint="Enter your New Password"
+            android:imeOptions="actionNext"
+            android:inputType="textPassword"
+            style="@style/Edittext_entry" />
+        <EditText
+            android:id="@+id/confirm_password_et"
+            android:hint="Confirm your New Password"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            style="@style/Edittext_entry" />
+        <LinearLayout
+            android:id="@+id/container_notifier_reset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <br.tiagohm.markdownview.MarkdownView
+                android:id="@+id/change_password_text_notifier"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/password_requirements"
+                android:textColor="#545454"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+</RelativeLayout>
+

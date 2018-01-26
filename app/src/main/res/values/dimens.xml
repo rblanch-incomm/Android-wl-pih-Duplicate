@@ -1,0 +1,233 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="splash_logo_padding_left">20dp</dimen>
+    <dimen name="splash_logo_padding_right">20dp</dimen>
+    <dimen name="global_margin_horizontal">14dp</dimen>
+    <dimen name="global_margin_vertical">12dp</dimen>
+    <dimen name="login_edit_text_icon_width">32dp</dimen>
+    <dimen name="login_edit_text_icon_height">32dp</dimen>
+    <dimen name="login_edit_text_icon_margin_left">10dp</dimen>
+    <dimen name="global_rule_a_height">1dp</dimen>
+    <dimen name="login_option_register_margin_bottom">12dp</dimen>
+    <dimen name="login_password_edit_margin_bottom">12dp</dimen>
+
+    <dimen name="global_edit_bkg_margin_top">12dp</dimen>
+    <dimen name="global_edit_bkg_margin_left">14dp</dimen>
+    <dimen name="global_edit_bkg_margin_right">14dp</dimen>
+    <dimen name="global_edit_bkg_padding_top">6dp</dimen>
+    <dimen name="global_edit_bkg_padding_bottom">6dp</dimen>
+    <dimen name="global_edit_bkg_padding_left">6dp</dimen>
+    <dimen name="global_edit_bkg_padding_right">6dp</dimen>
+    <dimen name="global_edit_text_prefix_margin_left">8dp</dimen>
+    <dimen name="global_edit_label_text_size">14sp</dimen>
+
+    <dimen name="global_margin_half_horizontal">7dp</dimen>
+    <dimen name="global_margin_half_vertical">6dp</dimen>
+
+    <dimen name="global_margin_three_quarters_horizontal">10dp</dimen>
+    <dimen name="global_margin_three_quarters_vertical">9dp</dimen>
+    <dimen name="global_margin_one_and_half_horizontal">21dp</dimen>
+    <dimen name="global_margin_one_and_half_vertical">18dp</dimen>
+    <dimen name="global_margin_double_horizontal">28dp</dimen>
+    <dimen name="global_margin_double_vertical">24dp</dimen>
+    <dimen name="global_item_row_text_size">16sp</dimen>
+    <dimen name="global_text_fineprint_size">6sp</dimen>
+    <dimen name="global_text_tiny_size">8sp</dimen>
+    <dimen name="global_text_small_size">12sp</dimen>
+    <dimen name="global_text_regular_size_1">14sp</dimen>
+    <dimen name="global_text_regular_size_2">16sp</dimen>
+    <dimen name="global_text_regular_size_3">18sp</dimen>
+    <dimen name="global_text_big_size">21sp</dimen>
+    <dimen name="global_text_huge_size">28sp</dimen>
+    <dimen name="global_text_humongous_size">33sp</dimen>
+
+    <dimen name="global_subtitle_header_b_height">60dp</dimen>
+    <dimen name="global_subtitle_header_b_text_size">@dimen/global_text_big_size</dimen>
+    <dimen name="global_subtitle_header_c_text_size">@dimen/global_text_big_size</dimen>
+
+    <dimen name="global_rule_3_height">1dp</dimen>
+    <dimen name="global_rule_b_width">1dp</dimen>
+
+    <dimen name="global_margin_half_left">@dimen/global_margin_half_horizontal</dimen>
+    <dimen name="global_margin_half_right">@dimen/global_margin_half_horizontal</dimen>
+    <dimen name="global_margin_half_top">@dimen/global_margin_half_vertical</dimen>
+    <dimen name="global_margin_half_bottom">@dimen/global_margin_half_vertical</dimen>
+
+    <dimen name="global_margin_left">@dimen/global_margin_horizontal</dimen>
+    <dimen name="global_margin_right">@dimen/global_margin_horizontal</dimen>
+    <dimen name="global_margin_top">@dimen/global_margin_vertical</dimen>
+    <dimen name="global_margin_bottom">@dimen/global_margin_vertical</dimen>
+
+    <dimen name="global_margin_double_left">@dimen/global_margin_double_horizontal</dimen>
+    <dimen name="global_margin_double_right">@dimen/global_margin_double_horizontal</dimen>
+    <dimen name="global_margin_double_top">@dimen/global_margin_double_vertical</dimen>
+    <dimen name="global_margin_double_bottom">@dimen/global_margin_double_vertical</dimen>
+
+    <dimen name="global_actionbar_height">63dp</dimen>
+    <dimen name="global_actionbar_btn_width">48dp</dimen>
+    <dimen name="global_actionbar_btn_height">48dp</dimen>
+    <dimen name="global_actionbar_padding_left">@dimen/global_margin_left</dimen>
+    <dimen name="global_actionbar_padding_right">@dimen/global_margin_right</dimen>
+    <dimen name="global_actionbar_logo_width">196dp</dimen>
+    <dimen name="global_actionbar_logo_height">40dp</dimen>
+
+    <dimen name="global_btn_big_padding_top">@dimen/global_margin_top</dimen>
+    <dimen name="global_btn_big_padding_bottom">@dimen/global_margin_bottom</dimen>
+    <dimen name="global_btn_big_padding_left">@dimen/global_margin_left</dimen>
+    <dimen name="global_btn_big_padding_right">@dimen/global_margin_right</dimen>
+    <dimen name="global_btn_big_margin_left">@dimen/global_margin_left</dimen>
+    <dimen name="global_btn_big_margin_right">@dimen/global_margin_right</dimen>
+    <dimen name="global_btn_big_margin_top">@dimen/global_margin_top</dimen>
+    <dimen name="global_btn_big_margin_bottom">@dimen/global_margin_bottom</dimen>
+    <dimen name="global_btn_big_text_size">@dimen/global_text_big_size</dimen>
+
+    <dimen name="global_double_btn_margin_top">@dimen/global_margin_top</dimen>
+    <dimen name="global_double_btn_margin_bottom">@dimen/global_margin_bottom</dimen>
+    <dimen name="global_double_btn_left_margin_left">@dimen/global_margin_left</dimen>
+    <dimen name="global_double_btn_left_margin_right">0dp</dimen>
+    <dimen name="global_double_btn_right_margin_left">@dimen/global_margin_left</dimen>
+    <dimen name="global_double_btn_right_margin_right">@dimen/global_margin_right</dimen>
+
+    <dimen name="global_switch_width">56dp</dimen>
+    <dimen name="global_switch_height">29dp</dimen>
+
+    <dimen name="global_checkbox_width">25dp</dimen>
+    <dimen name="global_checkbox_height">25dp</dimen>
+
+    <dimen name="global_paragraph_text_size">@dimen/global_text_regular_size_1</dimen>
+    <dimen name="global_content_padding_top">@dimen/global_margin_top</dimen>
+    <dimen name="global_content_padding_left">@dimen/global_margin_left</dimen>
+    <dimen name="global_content_padding_right">@dimen/global_margin_right</dimen>
+
+    <dimen name="global_row_info_text_size">@dimen/global_text_regular_size_1</dimen>
+    <dimen name="global_row_info_margin_left">@dimen/global_margin_left</dimen>
+    <dimen name="global_row_info_margin_right">@dimen/global_margin_right</dimen>
+    <dimen name="global_row_info_margin_top">@dimen/global_margin_top</dimen>
+    <dimen name="global_row_info_margin_bottom">@dimen/global_margin_bottom</dimen>
+
+    <dimen name="global_item_padding_top">@dimen/global_margin_top</dimen>
+    <dimen name="global_item_padding_bottom">@dimen/global_margin_bottom</dimen>
+    <dimen name="global_item_text_padding_top">@dimen/global_margin_half_top</dimen>
+    <dimen name="global_item_text_padding_bottom">@dimen/global_margin_half_bottom</dimen>
+    <dimen name="global_item_text_padding_left">@dimen/global_margin_left</dimen>
+    <dimen name="global_item_text_padding_right">@dimen/global_margin_right</dimen>
+    <dimen name="global_item_arrow_width">18dp</dimen>
+    <dimen name="global_item_arrow_height">18dp</dimen>
+    <dimen name="global_item_arrow_margin_right">@dimen/global_margin_right</dimen>
+    <dimen name="global_item_text_size">@dimen/global_text_regular_size_1</dimen>
+    <dimen name="global_item_arrow_2_width">34dp</dimen>
+    <dimen name="global_item_arrow_2_height">34dp</dimen>
+
+    <dimen name="global_edit_text_size">@dimen/global_input_text_size</dimen>
+    <dimen name="global_edit_padding_top">4dp</dimen>
+    <dimen name="global_edit_padding_bottom">4dp</dimen>
+    <dimen name="global_edit_padding_left">8dp</dimen>
+    <dimen name="global_edit_padding_right">8dp</dimen>
+    <dimen name="global_edit_label_margin_top">@dimen/global_margin_top</dimen>
+    <dimen name="global_edit_label_margin_left">@dimen/global_margin_left</dimen>
+    <dimen name="global_edit_label_margin_right">@dimen/global_margin_right</dimen>
+    <dimen name="global_edit_label_padding_left">@dimen/global_margin_half_left</dimen>
+
+
+    <dimen name="global_input_text_size">@dimen/global_text_regular_size_3</dimen>
+
+    <dimen name="global_switch_text_margin_left">@dimen/global_margin_left</dimen>
+    <dimen name="global_switch_text_margin_right">@dimen/global_margin_right</dimen>
+
+    <dimen name="global_checkbox_text_size">@dimen/global_text_regular_size_1</dimen>
+    <dimen name="global_checkbox_text_vertical_separator">@dimen/global_margin_vertical</dimen>
+    <dimen name="global_checkbox_container_padding_top">@dimen/global_margin_top</dimen>
+    <dimen name="global_checkbox_container_padding_right">@dimen/global_margin_right</dimen>
+
+    <dimen name="global_spinner_bkg_margin_top">@dimen/global_margin_top</dimen>
+    <dimen name="global_spinner_bkg_with_label_margin_top">@dimen/global_margin_half_top</dimen>
+    <dimen name="global_spinner_bkg_margin_left">@dimen/global_margin_left</dimen>
+    <dimen name="global_spinner_bkg_margin_right">@dimen/global_margin_right</dimen>
+    <dimen name="global_spinner_height">40dp</dimen>
+    <dimen name="global_spinner_text_padding_left">@dimen/global_margin_left</dimen>
+    <dimen name="global_spinner_text_padding_top">@dimen/global_margin_half_top</dimen>
+    <dimen name="global_spinner_text_padding_bottom">@dimen/global_margin_half_bottom</dimen>
+    <dimen name="global_spinner_text_size">@dimen/global_input_text_size</dimen>
+    <dimen name="global_spinner_arrow_height">32dp</dimen>
+    <dimen name="global_spinner_arrow_margin_top">3dp</dimen>
+    <dimen name="global_spinner_arrow_margin_bottom">3dp</dimen>
+    <dimen name="global_spinner_arrow_margin_left">@dimen/global_margin_left</dimen>
+    <dimen name="global_spinner_arrow_margin_right">@dimen/global_margin_half_right</dimen>
+
+    <dimen name="global_datepicker_title_text_size">@dimen/global_text_huge_size</dimen>
+    <dimen name="global_datepicker_title_margin_top">15dp</dimen>
+    <dimen name="global_datepicker_title_margin_bottom">4dp</dimen>
+
+    <dimen name="global_icon_width">24dp</dimen>
+    <dimen name="global_icon_height">24dp</dimen>
+    <dimen name="global_icon_vertical_separator">@dimen/global_margin_right</dimen>
+
+    <dimen name="global_enumeration_step_width">23dp</dimen>
+    <dimen name="global_enumeration_step_height">23dp</dimen>
+    <dimen name="global_enumeration_step_margin_top">3dp</dimen>
+    <dimen name="global_enumeration_text_margin_left">@dimen/global_margin_left</dimen>
+    <dimen name="global_enumeration_text_margin_bottom">@dimen/global_margin_bottom</dimen>
+    <dimen name="global_enumeration_text_size">@dimen/global_paragraph_text_size</dimen>
+
+    <dimen name="global_landing_heading_margin_top">@dimen/global_margin_top</dimen>
+    <dimen name="global_landing_content_bkg_padding_bottom">@dimen/global_margin_bottom</dimen>
+    <dimen name="global_landing_paragraph_margin_top">@dimen/global_margin_top</dimen>
+    <dimen name="global_landing_paragraph_margin_bottom">@dimen/global_margin_bottom</dimen>
+    <dimen name="global_landing_paragraph_margin_left">@dimen/global_margin_left</dimen>
+    <dimen name="global_landing_paragraph_margin_right">@dimen/global_margin_right</dimen>
+    <dimen name="global_landing_logo_padding_top">@dimen/global_margin_top</dimen>
+    <dimen name="global_landing_logo_padding_bottom">@dimen/global_margin_bottom</dimen>
+    <dimen name="global_landing_heading_text_size">@dimen/global_text_big_size</dimen>
+    <dimen name="global_landing_paragraph_text_size">@dimen/global_text_regular_size_1</dimen>
+
+    <dimen name="global_account_balance_heading_text_size">@dimen/global_text_regular_size_2</dimen>
+    <dimen name="global_account_balance_text_size">@dimen/global_text_regular_size_2</dimen>
+    <dimen name="global_account_balance_amount_text_size">@dimen/global_text_humongous_size</dimen>
+
+    <dimen name="global_footer_text_size">@dimen/global_text_fineprint_size</dimen>
+    <dimen name="global_footer_padding_left">4dp</dimen>
+    <dimen name="global_footer_padding_right">4dp</dimen>
+    <dimen name="global_footer_padding_top">4dp</dimen>
+    <dimen name="global_footer_padding_bottom">4dp</dimen>
+
+    <dimen name="global_footer_shortcut_padding_top">6dp</dimen>
+    <dimen name="global_footer_shortcut_icon_width">32dp</dimen>
+    <dimen name="global_footer_shortcut_icon_height">32dp</dimen>
+    <dimen name="global_footer_shortcut_text_margin_top">4dp</dimen>
+    <dimen name="global_footer_shortcut_text_size">@dimen/global_text_tiny_size</dimen>
+
+    <dimen name="global_slider_dots_margin">@dimen/global_margin_vertical</dimen>
+    <dimen name="global_slider_dot_margin">1dp</dimen>
+    <dimen name="global_slider_dot_width">10dp</dimen>
+    <dimen name="global_slider_dot_height">10dp</dimen>
+
+    <!-- LOGIN -->
+    <dimen name="login_shortcut_height">60dp</dimen>
+
+    <dimen name="login_logo_margin_left">40dp</dimen>
+    <dimen name="login_logo_margin_top">45dp</dimen>
+    <dimen name="login_logo_margin_right">40dp</dimen>
+    <dimen name="login_logo_margin_bottom">20dp</dimen>
+
+    <!-- GETTING STARTED -->
+    <dimen name="started_image_margin_left">20dp</dimen>
+    <dimen name="started_image_margin_right">20dp</dimen>
+    <dimen name="started_register_text_padding_top">@dimen/global_margin_double_top</dimen>
+    <dimen name="started_register_text_padding_bottom">@dimen/global_margin_double_bottom</dimen>
+    <dimen name="started_register_text_size">@dimen/global_text_big_size</dimen>
+    <dimen name="started_register_vertical_separation_text">@dimen/global_margin_half_vertical
+    </dimen>
+    <dimen name="started_register_vertical_separation_arrow">3dp</dimen>
+    <dimen name="started_register_arrow_margin_right">@dimen/global_margin_right</dimen>
+
+    <dimen name="started_shortcuts_height">50dp</dimen>
+    <dimen name="started_shortcut_btn_bkg_padding_left">@dimen/global_margin_half_left</dimen>
+    <dimen name="started_shortcut_btn_bkg_padding_right">@dimen/global_margin_half_right</dimen>
+    <dimen name="started_shortcut_btn_icon_width">24dp</dimen>
+    <dimen name="started_shortcut_btn_icon_height">24dp</dimen>
+    <dimen name="started_shortcut_btn_icon_vertical_separator">@dimen/global_margin_vertical</dimen>
+    <dimen name="started_shortcut_btn_text_size">@dimen/global_text_small_size</dimen>
+
+    <dimen name="login_option_text_vertical_separator">12dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

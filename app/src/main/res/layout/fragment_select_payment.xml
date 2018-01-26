@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F5F5F5"
+    tools:context="com.incomm.payithere.views.selectPayment.SelectPaymentFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/select_payment_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/contextual_button_tv"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/contextual_button_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        android:text="help help !"
+        android:textColor="@android:color/holo_blue_dark" />
+
+</RelativeLayout>

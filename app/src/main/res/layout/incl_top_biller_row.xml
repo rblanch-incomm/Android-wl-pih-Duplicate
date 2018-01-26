@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50.40dp"
+    android:orientation="horizontal"
+    android:layout_marginTop="12dp"
+    android:layout_marginBottom="12dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginLeft="16dp">
+
+
+    <FrameLayout
+        android:layout_width="75dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/biller_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true" />
+    </FrameLayout>
+
+
+    <!--<ImageView
+        android:id="@+id/feature_row_glyph"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="false"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="14dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/global_chevron_right" />-->
+
+    <TextView
+        android:id="@+id/question_tv"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="@dimen/global_item_text_padding_right"
+        android:text="Comcast"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:scrollHorizontally="true"
+        android:textColor="#545454"
+        android:textSize="@dimen/global_item_row_text_size" />
+
+</LinearLayout>

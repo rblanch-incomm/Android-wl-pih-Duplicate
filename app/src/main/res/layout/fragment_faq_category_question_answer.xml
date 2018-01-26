@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.incomm.payithere.views.faqs.FaqQuestionAnswerFragment"
+    android:background="#eeeeee">
+
+    <include layout="@layout/incl_subtitle_header_b"/>
+
+    <TextView
+        android:id="@+id/faq_question_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/global_item_text_size"
+        android:textColor="#404040"
+        android:lineSpacingExtra="2sp"
+        android:paddingTop="@dimen/global_item_text_padding_top"
+        android:paddingBottom="@dimen/global_item_text_padding_bottom"
+        android:paddingLeft="@dimen/global_item_text_padding_left"
+        android:paddingRight="@dimen/global_item_text_padding_right"
+        android:gravity="center_vertical"/>
+
+</LinearLayout>

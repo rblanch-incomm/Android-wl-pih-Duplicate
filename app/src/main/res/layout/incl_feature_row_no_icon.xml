@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:paddingLeft="22dp"
+    android:paddingRight="22dp"
+    android:layout_height="50.4dp">
+   <!-- <LinearLayout
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:id="@+id/feature_icon_container"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:layout_width="60dp">
+    <ImageView
+        android:id="@+id/feature_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:src="@drawable/icon_load_checks"
+        android:adjustViewBounds="true"
+        android:padding="10dp"
+        android:layout_gravity="center" />
+    </LinearLayout>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="32dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/feature_row_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="The Bancopr Privacy Policy"
+            android:textColor="#545454"
+            android:textSize="@dimen/global_item_row_text_size" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/feature_row_glyph"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="false"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:adjustViewBounds="true" />
+
+</RelativeLayout>
