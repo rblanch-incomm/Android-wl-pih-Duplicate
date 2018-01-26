@@ -56,6 +56,7 @@ public class PayItHereApplication extends Application {
         configureImageLoader();
         System.out.println("Hey");
         System.out.println("Apple");
+        System.out.println("derp");
     }
 
   /*  @Override
